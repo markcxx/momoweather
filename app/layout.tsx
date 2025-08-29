@@ -8,6 +8,16 @@ export const metadata: Metadata = {
   title: "墨墨天气 - 专业天气预报服务",
   description: "提供实时天气、每日预报、逐小时预报和格点天气等专业天气服务",
   generator: "v0.app",
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
+      { url: "/favicon.svg", type: "image/svg+xml" }
+    ],
+    apple: [
+      { url: "/apple-touch-icon.png", sizes: "180x180", type: "image/png" }
+    ]
+  },
+  manifest: "/manifest.json"
 }
 
 const inter = Inter({

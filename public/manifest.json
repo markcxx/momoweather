@@ -1,0 +1,26 @@
+{
+  "name": "墨墨天气 - 专业天气预报服务",
+  "short_name": "墨墨天气",
+  "description": "提供实时天气、每日预报、逐小时预报和格点天气等专业天气服务",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f59e0b",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
